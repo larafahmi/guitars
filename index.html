@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    <meta charset="utf-8" />
+    <title>WEB222 Store</title>
+  </head>
+  <body>
+   
+  <!-- HEADER -->
+      <header>
+       
+        <div class="center">
+          
+          <svg class="bi bi-brightness-alt-high-fill" width="4em" height="4em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M4 11a4 4 0 118 0 .5.5 0 01-.5.5h-7A.5.5 0 014 11zm4-8a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2A.5.5 0 018 3zm8 8a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2a.5.5 0 01.5.5zM3 11a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2a.5.5 0 01.5.5zm10.657-5.657a.5.5 0 010 .707l-1.414 1.414a.5.5 0 11-.707-.707l1.414-1.414a.5.5 0 01.707 0zM4.464 7.464a.5.5 0 01-.707 0L2.343 6.05a.5.5 0 01.707-.707l1.414 1.414a.5.5 0 010 .707z" clip-rule="evenodd"/>
+          </svg>
+          <h1>
+            Guitars
+          </h1>
+         
+          <img class="logo">
+      
+    <nav id= "mainNav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+        </div>
+
+        
+      </header>
+
+      
+<section  id = "home-section"class=" main-image parallax--bg">
+
+		<h1 class="title parallax--box">This Is Where Exclusive Guitars Are Sold</span>
+		</h1>
+		<button href="" class="button button-accent shadow-lg p-3 mb-5  rounded" onclick="myFunction()">View products</button>
+
+</section>
+  
+  <!-- HEADER END -->
+
+  <div id ="store">
+
+    <nav id="list" class="listclass">
+
+      <nav class="active">
+          <ul>
+              <li class="menu-item active" id="catId">All</li>
+              <li id="GuitarsNav" class="menu-item" title="Guitars">Guitars</li>
+              <li id="BasesNav" class="menu-item" title="Basses">Basses</li>
+          </ul>
+      </nav>
+  
+  </nav>
+
+
+<main>
+  <div class="container">
+
+  <div id="images" class= "hideAll">  <!--MAIN DIV CONTAINS ALL IMAGES-->
+
+<!--MAIN BASE DIV-->
+<div id="basesMain" class="hide-bases">
+  <div class="row row-cols-1 row-cols-md-2 ">
+      <div class="hidden" id="Bases">
+          <div class="col mb-4 ">
+
+              <div class=" card" style="width: 18rem;">
+                  <a href="https://www.guitarcenter.com/Rogue/SX100B-Series-II-Electric-Bass-Guitar-Black-1278002525870.gc">
+                      <img src="https://cdn140.picsart.com/324683489079201.png" id="guitars" class="card-img-top shadow-lg p-3 mb-5 bg-white rounded" alt="...">
+                  </a>
+                  <div class="card-body">
+                      <h5 class="card-title">Rogue SX100B Series II Electric Bass Guitar </h5>
+                      <span id="category"> Category : </span> <span>Bases</span>
+                      <br>
+                      <p class="card-text"> <span id="product-title">Features<span>
+            <ul>         
+            <li>Bolt-on maple neck with rosewood fingerboard</li>
+            <li>Geared, covered tuners</li>
+            <li>34" scale length</li>
+            <li>24 frets </li>
+          </p>
+          </ul>        
+        <span  id= "prices">
+          CAD 221.30
+        </span>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="hidden" id="Bases">
+          <div class="col mb-4 ">
+              <div class="card" style="width: 18rem;">
+                  <a href="https://www.guitarcenter.com/Rogue/LX205B-5-String-Series-III-Electric-Bass-Guitar.gc">
+                      <img src="https://cdn140.picsart.com/324684132102201.png" class="card-img-top shadow-lg p-3 mb-5 bg-white rounded" alt="...">
+                  </a>
+                  <div class="card-body">
+                      <h5 class="card-title">Rogue LX205B 5-String Series III Electric Bass Guitar</h5>
+                      <span id="category"> Category : </span> <span>Bases</span>
+                      <br>
+                      <p class="card-text">
+                          <span id="product-title">Features<span>
+                <ul>         
+                <li>Bolt-on maple neck with rosewood fingerboard</li>
+                <li>J-style pickups</li>
+                <li>Dual volume & tone controls</li>
+                <li>34" scale length</li>
+                </ul>
+            </p>        
+            <span  id= "prices">
+              CAD 265.56
+            </span>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="hidden" id="Bases">
+          <div class="col mb-4">
+              <div class="card" style="width: 18rem;">
+                  <a href="https://www.guitarcenter.com/Sterling-by-Music-Man/SUB-StingRay-Rosewood-Fingerboard-Electric-Bass-Satin-Transparent-Blue-Black-Pickguard-1500000189304.gc">
+                      <img src="https://cdn130.picsart.com/324684506039201.png" id="guitars" class="card-img-top shadow-lg p-3 mb-5 bg-white rounded" alt="...">
+                  </a>
+                  <div class="card-body">
+                      <h5 class="card-title">Sterling by Music Man S.U.B. StingRay Rosewood Fingerboard Electric Bass  </h5>
+                      <span id="category"> Category : </span> <span>Bases</span>
+                      <br>
+                      <p class="card-text">
+                          <span id="product-title">Features<span>
+                <ul>         
+                <li>Basswood body</li>
+                <li>Fully-adjustable heavy duty fixed bridge</li>
+                <li>Dual volume & tone controls</li>
+                <li>34" scale length</li>
+                </ul>
+            </p>
+            <span  id= "prices">
+              CAD 433.99
+            </span>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="hidden" id="Bases">
+          <div class="col mb-4">
+              <div class="card" style="width: 18rem;">
+                  <a href="https://www.guitarcenter.com/GL/CLF-Research-L-1000-Electric-Bass-Maple-Fingerboard-Rally-Red-1500000230459.gc">
+                      <img src="https://cdn130.picsart.com/324686153087201.png" id="guitars" class="card-img-top shadow-lg p-3 mb-5 bg-white rounded" alt="...">
+                  </a>
+                  <div class="card-body">
+                      <h5 class="card-title">G&L CLF Research L-1000 Electric Bass Maple Fingerboard  Rally Red</h5>
+                      <span id="category"> Category : </span> <span>Bases</span>
+                      <br>
+                      <p class="card-text">
+                          <span id="product-title">Features<span>
+              <ul>         
+              <li>Fret size: Medium-jumbo, Jescar 57110 18% nickel silver</li>
+              <li>Neck joint Bolt-on</li>
+              <li>Passive pickups</li>
+              <li>34" scale length</li>
+              </ul>
+          </p>
+          <span  id= "prices">
+            CAD 2,360.64
+          </span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+    <!--GUITARS MAIN DIV-->
+    <div id="guitarsMain" class= "hide-guitars"> 
+    <div class="row row-cols-1 row-cols-md-2">
+      <div class="col mb-4">
+        <div class="card" id = "Guitars" style="width: 18rem;">
+          <a href="https://www.guitarcenter.com/Epiphone/Limited-Edition-SG-Special-I-Electric-Guitar-Pelham-Blue-1500000013040.gc">
+          <img src="https://cdn130.picsart.com/324687740014201.png"  class="card-img-top shadow-lg p-3 mb-5 bg-white rounded" alt="...">
+        </a>
+          <div class="card-body">
+            <h5 class="card-title">Epiphone Limited Edition SG Special-I Electric Guitar</h5>
+            <span id = "category"> Category : </span> <span>Guitars</span> <br>
+            <p class="card-text">
+              <span id="product-title">Features<span>
+                <ul>         
+                <li>Body finish: Gloss</li>
+                <li>Control layout: Master volume, tone</li>
+                <li>Passive pickups</li>
+                <li>Neck shape: '60s SlimTaper D</li>
+                </ul>
+            </p>
+            <span  id= "prices">
+              CAD 258.18
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card" id = "Guitars" style="width: 18rem;">
+          <a href="https://www.guitarcenter.com/Gibson/SG-Standard-Electric-Guitar-Ebony-1500000274104.gc?pfm=error_page.rr1|RecentHistoricalItems">
+          <img src="https://cdn130.picsart.com/324688196067201.png"  class="card-img-top shadow-lg p-3 mb-5 bg-white rounded" alt="...">
+        </a>
+          <div class="card-body">
+            <h5 class="card-title">Gibson SG Standard '61 Electric Guitar Vintage</h5>
+            <span id = "category"> Category : </span> <span>Guitars</span> <br>
+            <p class="card-text">
+              <span id="product-title">Features<span>
+                <ul>         
+                <li>Body finish: Gloss</li>
+                <li>Bridge: BurstBucker 61T</li>
+                <li>Passive pickups</li>
+                <li>Control layout: Volume 1, volume 2, tone 1, tone 2</li>
+                </ul>
+            </p>
+            <span  id= "prices">
+              CAD 2,654.26
+            </span>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col mb-4">
+        <div class="card" id = "Guitars" style="width: 18rem;">
+          <a href="https://www.guitarcenter.com/Gibson/Les-Paul-Modern-Electric-Guitar-Faded-Pelham-Blue-1500000273962.gc">
+          <img src="https://cdn130.picsart.com/324700621103201.png" id = "guitars" class="card-img-top shadow-lg p-3 mb-5 bg-white rounded" alt="...">
+        </a>
+          <div class="card-body">
+            <h5 class="card-title">Gibson Les Paul Modern Electric Guitar; Faded Pelham Blue</h5>
+            <span id = "category"> Category : </span> <span>Guitars</span> <br>
+            <p class="card-text">
+              <span id="product-title">Features<span>
+                <ul>         
+                <li>Wood: Solid Maple wood</li>
+                <li>Bridge: BurstBucker Pro +</li>                
+                <li>Electronics: Push-pull coil tap/Push-pull phase & bypass</li>
+                <li>Bridge design: Tune-o-matic</li>
+                </ul>
+            </p>
+            <span  id= "prices">
+              CAD 4,129.67
+             </span>   
+          </div>
+        </div>
+      </div>
+ 
+      <div class="col mb-4">
+        <div class="card" id="Guitars" style="width: 18rem;">
+            <a href="https://www.guitarcenter.com/Gibson-Custom/Historic-60-Les-Paul-Standard-VOS-Electric-Guitar-Tangerine-Burst-1500000273398.gc">
+                <img src="https://cdn130.picsart.com/324682109009201.png" class="card-img-top shadow-lg p-3 mb-5 bg-white rounded" alt="...">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title">Gibson Custom Historic '60 Les Paul Standard VOS Electric Guitar</h5>
+                <span id="category"> Category : </span> <span>Guitars</span>
+                <br>
+                <p class="card-text">
+                    <span id="product-title">Features<span>
+                    <ul>         
+                    <li>Wood: Solid Figured Maple</li>
+                    <li>Brand: Gibson Custom</li>                
+                    <li>Bridge design: ABR-1 Tune-o-Matic</li>
+                    <li>Scale length: 24.75 in.</li>
+                    </ul>       
+                   </p>
+                   <span  id= "prices">
+                    CAD 9,588.69
+                   </span>
+            </div>
+        </div>
+    </div>
+      <div class="col mb-4">
+        <div class="card" id = "Guitars" style="width: 18rem;">
+          <a href="https://www.guitarcenter.com/Epiphone/Les-Paul-Special-II-Plus-Limited-Edition-Electric-Guitar-Transparent-Black-1275425411034.gc">
+          <img src="https://cdn130.picsart.com/324677376042201.png" id = "guitars" class="card-img-top shadow-lg p-3 mb-5 bg-white rounded" alt="...">
+        </a>
+          <div class="card-body">
+            
+            <h5 class="card-title">Epiphone Les Paul Special II Plus Limited Edition Electric Guitar</h5>
+            <span id = "category"> Category : </span> <span>Guitars</span> <br>
+            <p class="card-text">
+              <span id="product-title">Features<span>
+                <ul>         
+                <li>Flamed maple top</li>
+                <li>Bolt-on neck mahogany neck with slim taper profile</li>                
+                <li>24-3/4" scale</li>
+                <li>Limited lifetime warranty</li>
+                </ul>
+            </p>
+            <span  id= "prices">
+              CAD 337.87
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card" id="Guitars" style="width: 18rem;">
+            <a href="https://www.guitarcenter.com/Epiphone/Limited-Edition-Les-Paul-Special-I-Electric-Guitar-Worn-Black-1296155735782.gc">
+                <img src="https://cdn130.picsart.com/324677526017201.png" class="card-img-top shadow-lg p-3 mb-5 bg-white rounded" alt="...">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title">Epiphone Limited Edition Les Paul Special-I Electric Guitar </h5>
+                <span id="category"> Category : </span> <span>Guitars</span>
+                <br>
+                <p class="card-text">
+                    <span id="product-title">Features<span>
+                    <ul>         
+                    <li>Basswood body</li>
+                    <li>21 frets</li>                
+                    <li>Master volume controls</li>
+                    <li>Coverered diecast tuners</li>
+                    </ul>
+                </p>
+                <span  id= "prices">
+                  CAD 236.05
+                </span>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+<!--GUITARS DIV ENDS HERE-->
+</div>
+</div>
+  <!-- ALL images end here-->
+
+  
+</main>
+<!--MAIN END (.store)-->
+
+<!--FOOTER-->
+<footer>
+
+  <div class="container" id="index-subscribe-form">
+      <form action="https://formspree.io/mknvepak" method="POST">
+
+          <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" name="_replyto" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1" style="width: 18rem;">Agree to our terms and conditions</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+  </div>
+
+  <svg class="bi bi-brightness-alt-high-fill" width="4em" height="4em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M4 11a4 4 0 118 0 .5.5 0 01-.5.5h-7A.5.5 0 014 11zm4-8a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2A.5.5 0 018 3zm8 8a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2a.5.5 0 01.5.5zM3 11a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2a.5.5 0 01.5.5zm10.657-5.657a.5.5 0 010 .707l-1.414 1.414a.5.5 0 11-.707-.707l1.414-1.414a.5.5 0 01.707 0zM4.464 7.464a.5.5 0 01-.707 0L2.343 6.05a.5.5 0 01.707-.707l1.414 1.414a.5.5 0 010 .707z" clip-rule="evenodd" />
+  </svg>
+  <h4>Guitars</h4>
+
+</footer>
+<!--FOOTER END-->
+
+  </div>
+<!--STORE DIV END-->
+
+<!--JAVA SCRIPTS-->
+  <script>
+  function myFunction() {
+    var elmnt = document.getElementById("store");
+    elmnt.scrollIntoView();
+  }
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="crossorigin="anonymous"></script>
+  <script src="js/parallax.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+
+</body>
+  </html>
+    <!--
+      Part 1: Main Store Page
+
+      Requirements:
+
+      1. Header across the top must include your store's name, a logo,
+      and use a different background colour, web font, etc.  You must also include
+      a link to your contact.html page.  Your header should include info about
+      what the store is, what it sells, etc.  Use some images to try and draw
+      the user in.  NOTE: place all your site's images in the `src/images/` directory.
+
+      2. Below the header, a multi-column layout of items you can purchase in the   //DONE
+      store.  You must have at least 10 items in your store, and at least 2
+      categories of items. For example, if you are selling clothing, you might
+      have categories for Men, Women, and Children, and each category would have
+      its own set of items.  Each item should include:
+      
+        - a picture
+        - the item's name/title
+        - a more complete description of the item
+        - a category (i.e., each item must belong to a category)
+        - a price.
+      
+      Each item should be its own "card" (i.e., some kind of box around each item    //YEP
+      separating one from the next, with suitable whitespace between).
+
+      3. A sidebar (left or right, depending on your design) of the item layout     //DONE
+      section, showing the different categories of items in your store.  If a
+      user clicks on one of the categories, use CSS and JavaScript to hide all
+      other items in the store (i.e., only show items for the chosen category).
+      Make sure you include a way to return to seeing all categories, and make it
+      obvious to the user that they are only seeing a partial list of items when
+      you filter by category (i.e., use CSS and HTML to change things somehow).
+
+      4. Below the items, a footer with the name of the store, any relevant links you   
+      need to give users, as well as a small HTML form for entering an Email
+      address and clicking a "Subscribe" button to subscribe to the store's
+      newsletter. Use https://formspree.io/ to automatically submit the form to
+      your email address (i.e., when a user fills out their email address and
+      clicks submit, *you* should get that information sent to your email
+      address via formspree.io).  Make sure you setup your account on
+      https://formspree.io/.
+
+      5. Use two different Web Fonts for your store.  The titles should be different
+      from any regular text.  Use a free font service like https://fonts.google.com/
+      or any other that you choose.  You can also experiment with different font
+      sizes and colours to draw attention toward or away from various parts of
+      your design.
+
+      6. Pick a colour theme using a tool like https://colorhunt.co/ with at least
+      3 colours (primary, secondary, accent), and use them throughout your site
+      for backgrounds, borders, fonts. Your store page needs to look attractive
+      and marks will be given for good a good looking site.  No one will buy from
+      a store that looks like its owners aren't professional or don't care about
+      details.  Also make sure that the colour contrast in your site is suitable
+      for everyone to read.
+
+      7. Use modern CSS to help you achieve your layout.  For example, Flexbox
+      and CSS Grid can help you create professional looking layouts.  Here
+      are some guides to get you started:
+
+       - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
+       - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
+       
+      You are also welcome to use existing CSS libraries to help you with your layout,
+      but you must also include your own styles (i.e., you can't use a library
+      for everything in your design).
+
+      8. Make sure you don't use copyrighted materials from other sites.  If you use
+      icons, fonts, images, etc., make sure you are legally permitted to reuse them,
+      and include references to indicate where you got them. Some resources to consider:
+
+        - https://unsplash.com/ for images
+        - https://fontawesome.com/ for icons
+        - https://gallery.manypixels.co/ or https://undraw.co/illustrations for illustrations (SVG)
+
+      9. Make sure you reduce the download size of images you include in your
+      store.  Users don't want to download 10s or 100s of megabytes of data, especially
+      on mobile.  You can use an online tool like https://squoosh.app/ to help you
+      reduce images.  You will lose marks if your images aren't optimized for the web.
+       
+
+      10. Make sure you have no JavaScript or other errors in your Dev Tools Console.
+      Run your site, and test all aspects of it with the Console open, and fix
+      any issues you encounter.
+
+      11. Make sure your forms all work as they should, testing them yourself,
+      and also have someone else test it for you.  The easiest way to find bugs
+      in software is to let someone who didn't build it try to use it!
+      
+    -->
+
